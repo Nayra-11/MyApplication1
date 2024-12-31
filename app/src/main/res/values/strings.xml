@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="user_app">User App</string>
+    <string name="home">Home</string>
+    <string name="gallery">Gallery</string>
+    <string name="slide_show">Slide Show</string>
+    <string name="my_name">Naira Shaban</string>
+    <string name="my_email">nairashabanheeb@gmail.com</string>
+</resources>
