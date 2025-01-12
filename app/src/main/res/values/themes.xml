@@ -2,5 +2,7 @@
 <resources>
 
     <style name="Theme.MyApplication1"
-        parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" />
-</resources>
+        parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge" >
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+</resources><?xml version="1.0" encoding="utf-8"?>

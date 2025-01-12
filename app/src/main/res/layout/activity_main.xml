@@ -8,32 +8,60 @@
     </data>
 
     <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:openDrawer="start"
-        android:id="@+id/drawer_layout">
-        <LinearLayout
-            android:orientation="vertical"
+        tools:openDrawer="start">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <include layout="@layout/toolbar_layout"
-                android:id="@+id/toolbar_layout"/>
-
-            <androidx.recyclerview.widget.RecyclerView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/rv_students"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
-        </LinearLayout>
+                android:orientation="vertical">
+
+                <include
+                    android:id="@+id/toolbar_layout"
+                    layout="@layout/toolbar_layout" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_students"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/bottom_navigation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    app:itemIconTint="@drawable/bottom_nav_selector"
+                    app:itemTextColor="@drawable/bottom_nav_selector"
+                    app:menu="@menu/bottom_navigation_menu" />
+            </LinearLayout>
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                android:layout_marginBottom="70dp"
+                android:layout_marginEnd="20dp"
+                android:backgroundTint="@color/purple"
+                android:id="@+id/fab"
+                app:srcCompat="@drawable/plus"/>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
         <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigationView"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            app:menu="@menu/drawer_menu"
             android:layout_gravity="start"
-            android:id="@+id/navigationView"
+            app:headerLayout="@layout/header_layout"
             app:itemIconTint="@color/purple"
-            app:headerLayout="@layout/header_layout"/>
+            app:menu="@menu/drawer_menu" />
 
     </androidx.drawerlayout.widget.DrawerLayout>
 

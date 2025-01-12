@@ -21,6 +21,7 @@
             app:titleTextColor="@color/white"
             app:titleCentered="true"
             android:id="@+id/toolbar"
+            app:menu="@menu/toolbar_menu"
             app:navigationIcon="@drawable/menu"/>
 
     </com.google.android.material.appbar.AppBarLayout>

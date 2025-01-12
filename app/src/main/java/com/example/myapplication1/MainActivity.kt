@@ -59,6 +59,50 @@ class MainActivity : ComponentActivity() {
             }
         }
 
+        binding.toolbarLayout.toolbar.setOnMenuItemClickListener { item ->
+            when(item.itemId) {
+                R.id.search -> {
+                    Toast.makeText(this,R.string.search, Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.profile -> {
+                    Toast.makeText(this,R.string.profile, Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.settings -> {
+                    Toast.makeText(this,R.string.settings, Toast.LENGTH_SHORT).show()
+                    true
+                }
+                R.id.changeLanguage -> {
+                    Toast.makeText(this,R.string.change_lang, Toast.LENGTH_SHORT).show()
+                    true
+                }
+                else -> false
+            }
+        }
+
+        binding.bottomNavigation.setOnNavigationItemSelectedListener {
+            when (it.itemId) {
+                R.id.home -> {
+                    Toast.makeText(this, R.string.home, Toast.LENGTH_SHORT).show()
+                    true
+                }
+
+                R.id.profile -> {
+                    Toast.makeText(this, R.string.profile, Toast.LENGTH_SHORT).show()
+                    true
+                }
+
+                R.id.settings -> {
+                    Toast.makeText(this, R.string.settings, Toast.LENGTH_SHORT).show()
+                    true
+                }
+
+                else -> false
+            }
+        }
+
+
     }
 }
 

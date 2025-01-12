@@ -6,4 +6,8 @@
     <string name="slide_show">Slide Show</string>
     <string name="my_name">Naira Shaban</string>
     <string name="my_email">nairashabanheeb@gmail.com</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="change_lang">change Language</string>
+    <string name="search">Search</string>
 </resources>
