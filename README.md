@@ -19,9 +19,10 @@ The app leverages modern UI components including Toolbar, Navigation Drawer, Bot
 
 ## 📸 Screenshots
 
-| Home Screen (English) | Home Screen (Arabic) | Navigation Drawer | Language Switching |
-|-----------------------|----------------------|-------------------|--------------------|
-| ![Home](app/src/main/res/drawable/en1.jpg) | ![Home Arabic](app/src/main/res/drawable/ar1.jpg) | ![Drawer](app/src/main/res/drawable/en2.jpg) | ![Drawer Arabic](app/src/main/res/drawable/ar2.jpg) | ![Language Switch](app/src/main/res/drawable/en3.jpg) | ![Language Switch Arabic](app/src/main/res/drawable/ar3.jpg) |
+| Home EN | Home AR | Drawer EN | Drawer AR | Switch EN | Switch AR |
+|---------|---------|-----------|-----------|-----------|-----------|
+| ![Home](app/src/main/res/drawable/en1.jpg) | ![Home AR](app/src/main/res/drawable/ar1.jpg) | ![Drawer](app/src/main/res/drawable/en2.jpg) | ![Drawer AR](app/src/main/res/drawable/ar2.jpg) | ![Switch](app/src/main/res/drawable/en3.jpg) | ![Switch AR](app/src/main/res/drawable/ar3.jpg) |
+
 
 > 💡 Place your screenshots inside `assets/screenshots/` folder
 
