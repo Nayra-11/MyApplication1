@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تطبيقي الأول</string>
+    <string name="user_app">تطبيق المستخدم</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="gallery">معرض الصور</string>
+    <string name="slide_show">عرض الشرائح</string>
+    <string name="my_name">نيرة شعبان</string>
+    <string name="my_email">nairashabanheeb@gmail.com</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="settings">الإعدادات</string>
+    <string name="change_lang">تغيير اللغة</string>
+    <string name="search">بحث</string>
+</resources>

@@ -4,6 +4,6 @@
     <style name="Theme.MyApplication1"
         parent="Theme.MaterialComponents.Light.NoActionBar.Bridge" >
         <item name="android:textColorSecondary">@color/white</item>
-        <item name="colorAccent">@color/purple</item>
+        <item name="colorAccent">@color/black</item>
     </style>
 </resources>
