@@ -1,11 +1,11 @@
-# Android Student Groups App 📚
+# Android Student Groups Apps 📚
 
 An interactive Android app built using Kotlin, designed to display and manage a categorized list of users (e.g., students grouped by sections).  
 The app leverages modern UI components including Toolbar, Navigation Drawer, Bottom Navigation, and RecyclerView, and includes support for dynamic language switching (English ↔ Arabic).
 
 ---
 
-## ✨ Features
+## ✨  Features
 
 - 👥 Grouped user list with names and emails using `RecyclerView`
 - 🧭 Navigation Drawer with clickable menu items
@@ -17,7 +17,7 @@ The app leverages modern UI components including Toolbar, Navigation Drawer, Bot
 
 ---
 
-## 📸 Screenshots
+## 📸  Screenshots
 
 | Home EN | Home AR | Drawer EN | Drawer AR | Switch EN | Switch AR |
 |---------|---------|-----------|-----------|-----------|-----------|
@@ -28,7 +28,7 @@ The app leverages modern UI components including Toolbar, Navigation Drawer, Bot
 
 ---
 
-## ⚙️ Installation
+## ⚙️  Installation
 
 To run the project locally:
 
